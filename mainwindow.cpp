@@ -6,6 +6,9 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    number=1;
+    count=0;
+    str="hello,world";
 }
 
 MainWindow::~MainWindow()
