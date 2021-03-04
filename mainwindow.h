@@ -19,5 +19,6 @@ private:
     Ui::MainWindow *ui;
     int number;
     int count;
+    QString str;
 };
 #endif // MAINWINDOW_H
