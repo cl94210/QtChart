@@ -10,6 +10,8 @@ MainWindow::MainWindow(QWidget *parent)
     count=0;
     str="hello,world";
     qDebug()<<str<<endl;
+    qDebug()<<number<<endl;
+    qDebug()<<count<<endl;
 }
 
 MainWindow::~MainWindow()
