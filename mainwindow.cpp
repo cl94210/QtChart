@@ -12,9 +12,6 @@ MainWindow::MainWindow(QWidget *parent)
     qDebug()<<str<<endl;
     qDebug()<<number<<endl;
     qDebug()<<count<<endl;
-    number=2;
-    count=2;
-    str="hello,Jack";
 }
 
 MainWindow::~MainWindow()
